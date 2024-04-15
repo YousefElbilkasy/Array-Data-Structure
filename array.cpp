@@ -93,10 +93,7 @@ public:
     if (length >= size)
       cout << "Array is Full";
     else
-    {
-      ptr[length] = newItem;
-      length++;
-    }
+      ptr[length++] = newItem;
   }
   void insert(int index, int newItem)
   {
